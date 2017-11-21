@@ -1,0 +1,102 @@
+.wrapper{
+    min-width: 1260px;
+}
+header .lf-head {
+    width: 78%;
+    border-right: 1px solid #eee;
+}
+
+header .head {
+    width: 97%;
+}
+
+h5.title {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+
+    border-bottom: 1px solid #eee;
+}
+
+header .item {
+    flex: 300px 0 0;
+    line-height: 30px;
+}
+
+header .head-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    border-bottom: 9px solid #eee;
+    padding: 8px 0 10px 50px;
+}
+
+header .menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+header  .menu-list {
+    cursor: pointer;
+    text-align: center;
+    min-width: 180px;
+    height: 35px;
+    line-height: 35px;
+    background: #FF5C5C;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+header .menu-list.active{
+    background: #ff9292;
+}
+section .item {
+    padding: 0 50px;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+section .item .lf-content {
+    width: 89%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.risk-content table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.risk-content table thead{
+    background: #eeeeee;
+    height: 34px;
+    line-height: 34px;
+    padding-left:27px;
+
+}
+.risk-content table tr td:first-child{
+}
+.risk-content table tbody{
+    border: 1px solid #eee;
+    height: 34px;
+    line-height: 34px;
+    padding-left:32px;
+
+}
+section tr td:first-child{
+
+    padding-left:50px;
+}
+section .risk-box {
+    padding: 20px 10px 20px 40px;
+}
+section .risk-item{
+    margin-bottom:30px;
+}
+section .account-blank tr td:nth-child(1),section .account-blank tr td:nth-child(2),section .account-blank tr td:nth-child(3){
+    width: 23%;
+}
+section .card-end tr td:nth-child(1),section .card-end tr td:nth-child(2){
+    width: 25%;
+}
